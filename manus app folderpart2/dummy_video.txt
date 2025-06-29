@@ -1,0 +1,16 @@
+# Dummy Video Placeholder
+
+This file represents where the dummy_video.mp4 would be located.
+
+In a real implementation, you would:
+1. Add a sample video file (dummy_video.mp4) to this assets folder
+2. Use expo-av's Video component to display it
+3. The video would loop continuously as a background
+
+For now, the HomeScreen uses a gradient background with placeholder text instead of an actual video file.
+
+To add a real video:
+1. Place your video file here as dummy_video.mp4
+2. Update HomeScreen.js to import and use the Video component from expo-av
+3. Set the video to loop and play automatically
+
